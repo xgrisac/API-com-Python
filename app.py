@@ -13,9 +13,9 @@ app = Flask(__name__)
 
 estacionamento = [ 
     {
-        'placa' : 'GXG7B73',
+        'placa' : 'ABC1D23',
         'Modelo' : 'Fiat Palio',
-        'Condutor' : 'Fulano de tal',
+        'Condutor' : 'João Silva',
         'entrada' : datetime.now().isoformat(),
         'saida' : None,
         'observacao': None
@@ -24,7 +24,7 @@ estacionamento = [
     {
         'placa' : 'ABC1D23',
         'Modelo' : 'Volkswagem Gol',
-        'Condutor' : 'Ciclano da Silva',
+        'Condutor' : 'Maria Oliveira',
         'entrada' : datetime.now().isoformat(),
         'saida' : None,
         'observacao': None
@@ -33,7 +33,7 @@ estacionamento = [
     {
         'placa' : 'XYZ9K88',
         'Modelo' : 'Honda Xre',
-        'Condutor' : 'Beltrano de Souza',
+        'Condutor' : 'Pedro Souza',
         'entrada' : datetime.now().isoformat(),
         'saida' : None,
         'observacao': None
