@@ -101,6 +101,9 @@ def deletar_carro(placa):
             del estacionamento[indice] # Delete de acordo com o respectivo índice
             return jsonify(estacionamento)
 
-app.run(port=5000, host='localhost', debug=True)
+import os
+
+port = int(os.environ.get('PORT', 5000))
+app.run(host='0.0.0.0', port=port)
 
 # http://localhost:5000/estacionamento link real de exibição no postman/navegador
